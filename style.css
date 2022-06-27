@@ -430,7 +430,8 @@ select.form-control.has-value {
 }
 
 .bg-transparent.affix {
-    background-image: linear-gradient(to left, #011E41, #4a54e8, #5b42db, #682ccb, #7202bb) !important;
+    /*background-image: linear-gradient(to left, #011E41, #4a54e8, #5b42db, #682ccb, #7202bb) !important;*/
+    background-color: #00329A !important;
 }
 
 .navbar-toggler{
@@ -617,7 +618,8 @@ select.form-control.has-value {
 
 @media (min-width: 320px) and (max-width: 992px) {
     .navbar {
-        background-image: linear-gradient(to left, #011E41, #305be4, #3b4fe2, #4740de, #7202bb) !important;
+        /*background-image: linear-gradient(to left, #011E41, #305be4, #3b4fe2, #4740de, #7202bb) !important;*/
+        background-color: #00329A !important;
         padding: .45rem 1rem !important;
     }
     .menu li{
@@ -824,7 +826,8 @@ select.form-control.has-value {
 }
 
 .dot-indicator-center.owl-theme .owl-dots .owl-dot.active span, .dot-indicator-center.owl-theme .owl-dots .owl-dot:hover span {
-    background: #011E41;
+    background: #79A3DC;
+    /*background: #00329A;*/
 }
 
 .dot-indicator-center.owl-theme .owl-dots button.owl-dot:focus {
@@ -3880,10 +3883,10 @@ button, [type="button"], [type="reset"], [type="submit"] {
 }
 .main-polar-color-celeste{
     background-color: #79A3DC;
-    padding-top: 150px;
+    padding-top: 250px;
     position: relative;
     z-index: 0;
-    margin-top: -150px;
+    margin-top: -250px;
 }
 .footer-bottom{
     border-top: 1px solid rgba(255,255,255,.2);
@@ -3892,4 +3895,27 @@ button, [type="button"], [type="reset"], [type="submit"] {
     text-align: center;
     padding: 30px 50px;
     color: #ffffff;
+}
+.box-producto{
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: #C7D7EB;
+}
+.box-producto img{
+    margin: 15px auto;
+}
+.box-producto p{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #011E41;
+    /*height: 30px;*/
+    font-weight: 900;
+}
+@media (min-width: 992px){ 
+    .box-producto p{
+        margin-bottom: 0px;
+    }
 }
